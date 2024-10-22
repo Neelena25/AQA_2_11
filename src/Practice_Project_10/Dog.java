@@ -2,6 +2,12 @@ package Practice_Project_10;
 
 public class Dog extends Animal
 {
+    private static int _dogCount = 0;
+
+    public Dog(){
+        _dogCount++;
+    }
+
     @Override
     public void Run(int limit, String name){
         if (limit > 500){
