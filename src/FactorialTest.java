@@ -17,6 +17,9 @@ public class FactorialTest {
     public void testFactorialOfNegativeNumber() {
         Exception exception = assertThrows(IllegalArgumentException.class, () -> {
             Factorial.factorial(-1);
+        });
+    }
+}
 
 
 
