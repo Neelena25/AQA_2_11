@@ -33,5 +33,102 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="library" name="Maven: org.testng:testng:7.7.0" level="project" />
+    <orderEntry type="library" name="Maven: org.testng:testng:7.10.2" level="project" />
+    <orderEntry type="library" name="Maven: org.seleniumhq.selenium:selenium-api:4.26.0" level="project" />
+    <orderEntry type="library" name="Maven: org.seleniumhq.selenium:selenium-chrome-driver:4.26.0" level="project" />
+    <orderEntry type="library" name="Maven: org.seleniumhq.selenium:selenium-api:4.21.0" level="project" />
+    <orderEntry type="library" name="Maven: org.seleniumhq.selenium:selenium-chrome-driver:4.21.0" level="project" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Downloads/selenium-java-4/selenium-support-4.26.0.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/selenium-java-4/selenium-safari-driver-4.26.0.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/selenium-java-4/selenium-remote-driver-4.26.0.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/selenium-java-4/selenium-os-4.26.0.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/selenium-java-4/selenium-manager-4.26.0.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/selenium-java-4/selenium-json-4.26.0.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/selenium-java-4/selenium-java-4.26.0.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/selenium-java-4/selenium-ie-driver-4.26.0.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/selenium-java-4/selenium-http-4.26.0.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/selenium-java-4/selenium-firefox-driver-4.26.0.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/selenium-java-4/selenium-edge-driver-4.26.0.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/selenium-java-4/selenium-devtools-v85-4.26.0.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/selenium-java-4/selenium-devtools-v130-4.26.0.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/selenium-java-4/selenium-devtools-v129-4.26.0.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/selenium-java-4/selenium-devtools-v128-4.26.0.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/selenium-java-4/selenium-chromium-driver-4.26.0.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/selenium-java-4/selenium-chrome-driver-4.26.0.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/selenium-java-4/selenium-api-4.26.0.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/selenium-java-4/opentelemetry-semconv-1.25.0-alpha.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/selenium-java-4/opentelemetry-sdk-trace-1.43.0.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/selenium-java-4/opentelemetry-sdk-metrics-1.43.0.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/selenium-java-4/opentelemetry-sdk-logs-1.43.0.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/selenium-java-4/opentelemetry-sdk-extension-autoconfigure-spi-1.43.0.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/selenium-java-4/opentelemetry-sdk-extension-autoconfigure-1.43.0.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/selenium-java-4/opentelemetry-sdk-common-1.43.0.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/selenium-java-4/opentelemetry-sdk-1.43.0.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/selenium-java-4/opentelemetry-exporter-logging-1.43.0.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/selenium-java-4/opentelemetry-context-1.43.0.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/selenium-java-4/opentelemetry-api-incubator-1.43.0-alpha.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/selenium-java-4/opentelemetry-api-1.43.0.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/selenium-java-4/jsr305-3.0.2.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/selenium-java-4/jspecify-1.0.0.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/selenium-java-4/j2objc-annotations-3.0.0.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/selenium-java-4/guava-33.3.1-jre.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/selenium-java-4/failureaccess-1.0.2.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/selenium-java-4/failsafe-3.3.2.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/selenium-java-4/error_prone_annotations-2.28.0.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/selenium-java-4/commons-exec-1.4.0.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/selenium-java-4/checker-qual-3.43.0.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/selenium-java-4/byte-buddy-1.15.7.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/selenium-java-4/byte-buddy-1.15.7-sources.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/selenium-java-4/auto-service-annotations-1.1.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/Downloads/selenium-java-4/selenium-support-4.26.0-sources.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/selenium-java-4/selenium-safari-driver-4.26.0-sources.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/selenium-java-4/selenium-remote-driver-4.26.0-sources.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/selenium-java-4/selenium-os-4.26.0-sources.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/selenium-java-4/selenium-manager-4.26.0-sources.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/selenium-java-4/selenium-json-4.26.0-sources.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/selenium-java-4/selenium-ie-driver-4.26.0-sources.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/selenium-java-4/selenium-http-4.26.0-sources.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/selenium-java-4/selenium-firefox-driver-4.26.0-sources.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/selenium-java-4/selenium-edge-driver-4.26.0-sources.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/selenium-java-4/selenium-devtools-v85-4.26.0-sources.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/selenium-java-4/selenium-devtools-v130-4.26.0-sources.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/selenium-java-4/selenium-devtools-v129-4.26.0-sources.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/selenium-java-4/selenium-devtools-v128-4.26.0-sources.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/selenium-java-4/selenium-chromium-driver-4.26.0-sources.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/selenium-java-4/selenium-chrome-driver-4.26.0-sources.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/selenium-java-4/selenium-api-4.26.0-sources.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/selenium-java-4/opentelemetry-semconv-1.25.0-alpha-sources.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/selenium-java-4/opentelemetry-sdk-trace-1.43.0-sources.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/selenium-java-4/opentelemetry-sdk-metrics-1.43.0-sources.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/selenium-java-4/opentelemetry-sdk-logs-1.43.0-sources.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/selenium-java-4/opentelemetry-sdk-extension-autoconfigure-spi-1.43.0-sources.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/selenium-java-4/opentelemetry-sdk-extension-autoconfigure-1.43.0-sources.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/selenium-java-4/opentelemetry-sdk-common-1.43.0-sources.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/selenium-java-4/opentelemetry-sdk-1.43.0-sources.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/selenium-java-4/opentelemetry-exporter-logging-1.43.0-sources.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/selenium-java-4/opentelemetry-context-1.43.0-sources.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/selenium-java-4/opentelemetry-api-incubator-1.43.0-alpha-sources.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/selenium-java-4/opentelemetry-api-1.43.0-sources.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/selenium-java-4/jsr305-3.0.2-sources.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/selenium-java-4/jspecify-1.0.0-sources.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/selenium-java-4/j2objc-annotations-3.0.0-sources.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/selenium-java-4/guava-33.3.1-jre-sources.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/selenium-java-4/failureaccess-1.0.2-sources.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/selenium-java-4/failsafe-3.3.2-sources.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/selenium-java-4/error_prone_annotations-2.28.0-sources.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/selenium-java-4/commons-exec-1.4.0-sources.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/selenium-java-4/checker-qual-3.43.0-sources.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/selenium-java-4/byte-buddy-1.15.7-sources.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/selenium-java-4/auto-service-annotations-1.1.1-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
   </component>
 </module>
