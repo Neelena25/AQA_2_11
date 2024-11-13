@@ -1,7 +1,15 @@
+import Practice_Project_16.HomePage;
+import Practice_Project_16.PaymentPage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.By;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertTrue;
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertTrue;
 
@@ -15,31 +23,17 @@ public class Main
         try {
             driver.get("https://www.mts.by");
 
-            WebElement onlineRechargeBlock = driver.findElement(By.xpath("//h2[contains(text(),'Онлайн пополнение без комиссии')]"));
-            assertNotNull("Блок 'Онлайн пополнение без комиссии' не найден", onlineRechargeBlock);
+            HomePage homePage = new HomePage(driver);
+            assertNotNull("Блок 'Онлайн пополнение без комиссии' не найден", homePage.getOnlineRechargeBlock());
+            assertTrue("Логотип платежной системы Visa не найден", homePage.isVisaLogoDisplayed());
+            assertTrue("Логотип платежной системы MasterCard не найден", homePage.isMasterCardLogoDisplayed());
 
-            assertTrue("Логотип платежной системы Visa не найден",
-                    driver.findElement(By.cssSelector("img[src*='visa']")).isDisplayed());
-            assertTrue("Логотип платежной системы MasterCard не найден",
-                    driver.findElement(By.cssSelector("img[src*='mastercard']")).isDisplayed());
+            PaymentPage paymentPage = homePage.clickDetailsLink();
+            paymentPage.selectMobileServicesOption();
+            paymentPage.fillPhoneNumber("297777777");
+            paymentPage.getContinueButton().click();
 
-            WebElement detailsLink = driver.findElement(By.linkText("Подробнее о сервисе"));
-            assertNotNull("Ссылка 'Подробнее о сервисе' не найдена", detailsLink);
-            detailsLink.click();
-
-            driver.navigate().back();
-            WebElement serviceDropdown = driver.findElement(By.id("service-dropdown"));
-            serviceDropdown.click();
-
-            WebElement mobileServicesOption = driver.findElement(By.xpath("//option[contains(text(),'Услуги связи')]"));
-            mobileServicesOption.click();
-
-            WebElement phoneNumberField = driver.findElement(By.id("phone-number"));
-            phoneNumberField.sendKeys("297777777");
-
-            WebElement continueButton = driver.findElement(By.id("continue-button"));
-            continueButton.click();
-
+            paymentPage.verifyEmptyFieldMessages();
 
         } finally {
             driver.quit();
